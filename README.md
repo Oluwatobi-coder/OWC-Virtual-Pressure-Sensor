@@ -1,6 +1,6 @@
 # Hydrodynamic Characterization and Virtual Pressure Sensing of an Oscillating Water Column (OWC)
 
-[Link to Live OWC Virtual Pressure Sensing App 🌊](https://owc-virtual-sensor.streamlit.app/)
+[Link to Live OWC Virtual Pressure Sensing App 🌊](https://owc-virtual-pressure-sensor.streamlit.app/)
 
 <p align="center">
 <img src="./image_assets/dashboard_preview_vps.png" alt="OWC VPS Dashboard Preview" style="width:90%; height:auto; border-radius:10px;">
@@ -12,7 +12,7 @@ This project implements a machine learning-based virtual pressure sensor to esti
 
 Physical sensors deployed in offshore marine energy systems are highly susceptible to failure due to aggressive wave loading and corrosive environments. When a transducer fails, the real-time control system loses the critical data required for optimal power take-off (PTO) and grid integration.
 
-This project addresses this vulnerability by developing a **Data-Driven Soft Sensor**. By engineering time-lagged features from the incident wave elevation (WG1), the model captures the physical phase delay and system memory of the hydro-pneumatic coupling, accurately predicting chamber pressure under standard operational wave conditions.
+This project addresses this vulnerability by developing a data-driven soft pressure sensor. By engineering time-lagged features from the incident wave elevation (WG1), the model captures the physical phase delay and system memory of the hydro-pneumatic coupling, accurately predicting chamber pressure under standard operational wave conditions.
 
 ## 🛠️ Technology Used
 
@@ -20,7 +20,7 @@ This project addresses this vulnerability by developing a **Data-Driven Soft Sen
 * **Web Framework:** Streamlit
 * **Data Processing:** MATLAB (Signal filtering, Unit conversion), Pandas, NumPy
 * **Visualization:** Plotly, Matplotlib, Seaborn
-* **Dataset:** [MaRINET2 Fixed OWC WEC Test Data Set](https://www.seanoe.org/data/00697/80895/)
+* **Dataset:** [MarinetT 2 Fixed OWC WEC Test Data Set](https://www.seanoe.org/data/00697/80895/)
 
 ## 🔳 Key Features
 
